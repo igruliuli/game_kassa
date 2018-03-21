@@ -1,0 +1,67 @@
+@import "../../../../web/css/mixins.less";
+
+.profile {
+	.form {
+		padding-top: 20px;
+	}
+	.title {
+		.heading(48px; 18px; 48px; 10px);
+		.categories-circle(32px; 20px; @foreground; 6px; 8px);
+	}
+
+	.profile-left {
+		float: left;
+		width: 446px;
+		font-size: 0;
+		padding-top: 5px;
+		.form-row {
+			margin-bottom: 20px;
+			vertical-align: top;
+		}
+		label {
+			width: 176px;
+			display: inline-block;
+			text-align: right;
+			font-family: @huge-font;
+			font-size: 24px;
+			color: @foreground;
+			margin-right: 10px;
+			height: 35px;
+			line-height: 35px;
+		}
+		input {
+			.input();
+		}
+		.button {
+			float: right;
+			.button();
+			width: 228px;
+		}
+	}
+
+	.profile-right {
+		float: left;
+		margin-left: 70px;
+		padding-top: 6px;
+		.form-title {
+			font-size: 24px;
+			color: @foreground;
+			font-family: @huge-font;
+		}
+		label {
+			display: block;
+			font-size: 24px;
+			color: #32338e;
+			font-family: @huge-font;
+		}
+		input {
+			.input();
+		}
+		.hint {
+			font-weight: bold;
+			font-family: @main-font;
+			font-size: 16px;
+			padding: 5px;
+		}
+	}
+}

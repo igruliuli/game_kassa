@@ -1,0 +1,144 @@
+.close-button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  width: 31px;
+  height: 31px;
+  margin-top: -16px;
+  border-radius: 16px;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.close-button:before {
+  content: '\D7';
+  display: block;
+  font-size: 40px;
+  color: #ca0088;
+  line-height: 31px;
+  font-family: "Junegull-Regular";
+}
+.profile .form {
+  padding-top: 20px;
+}
+.profile .title {
+  margin: 0;
+  padding-left: 48px;
+  font-family: "Junegull-Regular";
+  font-weight: normal;
+  color: #ffffff;
+  background: #ca0088;
+  height: 48px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 48px;
+  position: relative;
+}
+.profile .title:before {
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border-radius: 16px;
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  content: '';
+  display: block;
+  left: 6px;
+}
+.profile .title:after {
+  content: '';
+  display: block;
+  background: #fff;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 4px solid #ca0088;
+  border-radius: 14px;
+  margin-top: -14px;
+  top: 50%;
+  left: 8px;
+}
+.profile .profile-left {
+  float: left;
+  width: 446px;
+  font-size: 0;
+  padding-top: 5px;
+}
+.profile .profile-left .form-row {
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+.profile .profile-left label {
+  width: 176px;
+  display: inline-block;
+  text-align: right;
+  font-family: "Junegull-Regular";
+  font-size: 24px;
+  color: #ca0088;
+  margin-right: 10px;
+  height: 35px;
+  line-height: 35px;
+}
+.profile .profile-left input {
+  width: 234px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #ca0088;
+  outline: none;
+  height: 23px;
+  vertical-align: top;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  font-size: 16px;
+}
+.profile .profile-left .button {
+  float: right;
+  outline: none;
+  border: none;
+  background: #ca0088;
+  font-family: "Junegull-Regular";
+  color: #fff;
+  font-size: 18px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 228px;
+}
+.profile .profile-right {
+  float: left;
+  margin-left: 70px;
+  padding-top: 6px;
+}
+.profile .profile-right .form-title {
+  font-size: 24px;
+  color: #ca0088;
+  font-family: "Junegull-Regular";
+}
+.profile .profile-right label {
+  display: block;
+  font-size: 24px;
+  color: #32338e;
+  font-family: "Junegull-Regular";
+}
+.profile .profile-right input {
+  width: 234px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #ca0088;
+  outline: none;
+  height: 23px;
+  vertical-align: top;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  font-size: 16px;
+}
+.profile .profile-right .hint {
+  font-weight: bold;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  padding: 5px;
+}

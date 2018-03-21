@@ -1,0 +1,53 @@
+p3chat.settings = {
+  "popupOnly": false,
+  "buttons": {
+    "inline": {
+      "url": {
+        "online": "//p3chat.com/buttons/inline_online_ru.png"
+      }
+    },
+    "floating": {
+      "position": {
+        "e": {
+          "bottom": "0%"
+        }
+      },
+      "url": {
+        "online": "//p3chat.com/buttons/093434411_float_online.png?58789",
+        "offline": "//p3chat.com/buttons/float_offline_ru_e.png"
+      }
+    }
+  },
+  "autoChatRules": [],
+  "teams": [
+    {
+      "tid": "166887137",
+      "name": "Help support",
+      "description": "Report the problem",
+      "online": true,
+      "useBtnAsIcon": false,
+      "onlineBtnUrl": "//p3chat.com/buttons/inline_online_ru.png",
+      "offlineBtnUrl": "//p3chat.com/buttons/inline_offline_ru.png"
+    },
+    {
+      "tid": "204699511",
+      "name": "Служба поддержки",
+      "description": "Опишите проблему и мы решим ее.",
+      "online": true,
+      "useBtnAsIcon": false,
+      "onlineBtnUrl": "//p3chat.com/buttons/inline_online_ru.png",
+      "offlineBtnUrl": "//p3chat.com/buttons/inline_offline_ru.png"
+    }
+  ],
+  "lang": "ru",
+  "operatorsOnline": true,
+  "disableChat": false,
+  "footerText": "empty",
+  "css": {
+    "top": "60px",
+    "left": "0px",
+    "height": "380px",
+    "width": "325px"
+  },
+  "offlineMsgSupport": false
+};

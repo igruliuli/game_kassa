@@ -1,0 +1,23 @@
+{
+    "name": "globaloxs/yii2-google-maps",
+    "description": "Google Maps Yii2 with clusterer wrapper",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","google","maps","clusterer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Bracamontes",
+            "email": "miguel.bracamontes@globaloxs.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/google-maps-js-marker-clusterer": "*"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "globaloxs\\GoogleMaps\\": ""
+        }
+    }
+}

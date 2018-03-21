@@ -1,0 +1,98 @@
+.admin-form {
+	padding: 10px 0;
+}
+
+.dashboard-item li {
+	cursor: pointer;
+}
+
+.dashboard-item-add .btn {
+	border-style: dashed;
+	padding: 70px 10px;
+}
+
+.dashboard-item-add i {
+	display: block;
+}
+
+.dashboard-item .panel-body {
+	text-align: center;
+	height: 250px;
+	overflow: hidden;
+}
+
+.dashboard-item-image {
+	width: 200px;
+}
+
+.product-tabs {
+	margin-bottom: 15px;
+}
+
+.nav.underline {
+	border-width: 1px 0;
+	border-color: #acacac;
+	border-style: solid;
+}
+
+.nav.underline li {
+	float: left;
+	padding: 15px 30px 15px 5px;
+	color: #999;
+	cursor: pointer;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.nav.underline li.active {
+	color: #000;
+	font-weight: bold;
+	border-bottom: 2px solid #000;
+}
+
+.nav.underline li i {
+	color: red;
+}
+
+.admin-leftmenu a {
+	font-size: 12px;
+}
+
+/** Common admin interface row **/
+.admin-row {
+	margin: 25px 0;
+}
+
+.report-image {
+	position: relative;
+	display: inline-block;
+}
+
+.report-image .glyphicon {
+	position: absolute;
+	right: 6px;
+	top: 5px;
+	box-shadow: #fff 3px 0 3px;
+	cursor: pointer;
+}
+
+.zone-list {
+	position: relative;
+}
+
+.zone-list .sortable-handle {
+	cursor: move;
+}
+
+.zone-item .panel-footer {
+	text-align: right;
+}
+
+.zone-item .panel-body {
+	height: 150px;
+	overflow: hidden;
+}
+
+.zone-item .panel-body img {
+	width: 100%;
+}

@@ -1,0 +1,2037 @@
+﻿
+ 
+body   
+{
+    background: #ffffff;
+    font-size: .80em;
+    font-family: "Courier New","Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+    height: 46px;
+    width: 1387px;
+    overflow:hidden; overflow-x:hidden; overflow-y:hidden;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 960px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.gbutton
+{
+    /*text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    cursor:pointer;
+    font-family:Arial;
+    font-size:35px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.gbuttonEM3
+{
+    /*text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    cursor:pointer;
+    font-family:Arial;
+    font-size:35px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.gbuttonEM2
+{
+    /*text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    cursor:pointer;
+    font-family:Arial;
+    font-size:35px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.gbuttonEM
+{
+    /*text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    cursor:pointer;
+    font-family:Arial;
+    font-size:35px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.gbutton1
+{
+    cursor:pointer;
+   /*text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    font-family:Arial;
+    font-size:24px;   
+    font-weight:bold; 
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.gbutton2
+{
+    cursor:pointer;
+   /* text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    font-family:Arial;
+    font-size:28px;
+    font-weight:bold;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.gbutton3
+{
+    cursor:pointer;
+   /* text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.textcapt
+{
+    font-family:Courier New;
+    font-size:15px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;  
+}
+.gbutton4
+{
+    cursor:default;
+   /* text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    font-family:Arial;
+    font-size:37px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.gbutton4EM3
+{
+    cursor:default;
+   /* text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    font-family:Arial;
+    font-size:37px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.gbutton4EM2
+{
+    cursor:default;
+   /* text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    font-family:Arial;
+    font-size:37px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.gbutton4EM
+{
+    cursor:default;
+   /* text-shadow:-1px -1px 1px rgba(200,200,200,1);*/
+    font-family:Arial;
+    font-size:37px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.pageText
+{
+ /*  text-shadow:-1px -1px 1px rgba(0,0,0,1);*/
+    font-family:Arial;
+    font-size: 1.4em;
+    font-style:normal;
+    font-weight:normal;
+    color:rgb(170,170,170);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.pageText2
+{
+    text-shadow:1px 1px 1px rgba(200,200,200,1);
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 1.0em;
+    font-style:normal;
+    font-weight:normal;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.pageText3
+{
+    text-shadow:1px 1px 1px rgba(200,200,200,1);
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 1.8em;
+    font-style:italic;
+    font-weight:900;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.betpoker
+{
+    border: 1px solid silver;
+    height:32px;
+    width:328px;
+    position:absolute;
+    
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 22px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(90,90,90);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.bet
+{
+    border: 1px solid silver;
+    height:32px;
+    width:328px;
+    position:absolute;
+    
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 22px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(90,90,90);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.betEM
+{
+    border: 1px solid silver;
+    height:32px;
+    width:328px;
+    position:absolute;
+    
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 22px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(90,90,90);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.betEM2
+{
+    border: 1px solid silver;
+    height:32px;
+    width:328px;
+    position:absolute;
+    
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 22px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(90,90,90);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.betEM3
+{
+    border: 1px solid silver;
+    height:32px;
+    width:328px;
+    position:absolute;
+    
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 22px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(90,90,90);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.pobet
+{
+    height:32px;
+    width: 95px;
+    border-left: 1px solid silver;    
+    position:absolute;
+    text-align:center;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.pobetEM2
+{
+    height:32px;
+    width: 95px;
+    border-left: 1px solid silver;    
+    position:absolute;
+    text-align:center;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.pobetEM3
+{
+    height:32px;
+    width: 95px;
+    border-left: 1px solid silver;    
+    position:absolute;
+    text-align:center;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.pobetEM
+{
+    height:32px;
+    width: 95px;
+    border-left: 1px solid silver;    
+    position:absolute;
+    text-align:center;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.pobetpoker
+{
+    height:32px;
+    width: 95px;
+    border-left: 1px solid silver;    
+    position:absolute;
+    text-align:center;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.labelBet
+{
+    word-wrap:normal;
+    font-family:Times New Roman;
+    font-size: 1.0em;
+    font-style:normal;
+    font-weight:normal;
+    color:rgb(150,150,150);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.labelBetEM
+{
+    word-wrap:normal;
+    font-family:Times New Roman;
+    font-size: 1.0em;
+    font-style:normal;
+    font-weight:normal;
+    color:rgb(150,150,150);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoney2Em2Sicbo
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#pokmoney2
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#rulmoney2EM
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#rulmoney2
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoney2GOLD
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoney2Em
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoneyEm5
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoneyEm4
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoneyEm3
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoney2Em2
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoney2
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoneyGOLD
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoneyEm
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoneyEm5
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoneyEm4
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoneyEm3
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoneyEm2
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#kenomoney
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+#pokermoney
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.helpText2
+{
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:inherit;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+#moneybitch
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#moneybitchEM
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#moneybitchEM2
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#moneybitchEM3
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#moneybitchEM4
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#moneybitchEM5
+{
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 2.0em;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenoballbutGOLD
+{
+	top:15px;
+	position:absolute;
+    cursor:pointer;
+    left:18px;
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 45px;
+    font-weight:bold;
+    color:silver;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenoballbut
+{
+    cursor:pointer;
+    
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 1.3em;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenoballbutEm
+{
+    cursor:pointer;
+    
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 1.3em;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenoballbutEm2
+{
+    cursor:pointer;
+    
+    word-wrap:normal;
+    font-family:Arial;
+    font-size: 1.3em;
+    font-weight:bold;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.pokerbuttext
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:20px;
+    font-style:normal;
+    font-weight:bold;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenobutGOLD
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:47px;
+    font-style:normal;
+    font-weight:bold;
+	color:silver;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenobutEm5
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:35px;
+    font-style:normal;
+    font-weight:bold;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenobutEm4
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:35px;
+    font-style:normal;
+    font-weight:bold;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenobutEm
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:35px;
+    font-style:normal;
+    font-weight:bold;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenobutEm2
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:35px;
+    font-style:normal;
+    font-weight:bold;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenobutEm3
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:35px;
+    font-style:normal;
+    font-weight:bold;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenobut
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:35px;
+    font-style:normal;
+    font-weight:bold;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbutGOLD
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbut
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbutEm
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbutEm2
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbutEm5
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbutEm4
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbutEm3
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbut2GOLD
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbut2
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbut2Em2
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbut2Em5
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbut2Em4
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbut2Em3
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.kenocombbut2Em
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-size:26px;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.helpText
+{
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:inherit;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.CheckLabel2
+{
+    cursor:pointer;
+    font-family:Times New Roman;
+    font-size:18px;
+    font-weight:100;
+    font-style:inherit;
+    color:rgb(0,0,0);
+    text-align:left;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.CheckLabelNewClientStats
+{
+    font-family:Times New Roman;
+    font-size:17px;
+    font-weight:bolder;
+    font-style:inherit;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.CheckLabelNewClient
+{
+    font-family:Times New Roman;
+    font-size:17px;
+    font-weight:bolder;
+    font-style:inherit;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.SBB2
+{
+    
+    cursor:pointer;
+        -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+ font-family:Times New Roman;
+    font-size:17px;
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;  
+}
+.SBB
+{
+    cursor:pointer;
+        -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+ font-family:Times New Roman;
+    font-size:17px;
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;  
+}
+.CheckLabel
+{
+    font-family:Times New Roman;
+    font-size:17px;
+    font-weight:bolder;
+    font-style:inherit;
+    color:rgb(0,0,0);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.infobetp
+{
+    font-family:Times New Roman;
+    font-weight:700;
+}
+.bcthR
+{
+    border-left: 1px solid #000000;
+    float:left;
+    text-align:center;
+    left:0px; 
+    top:0px;
+    width: 107px;
+    font-family:Times New Roman;
+    font-size:15px;
+    font-weight:500;
+    color:rgb(0,0,0);
+}
+.nigga
+{ 
+    padding-top:0px;
+}
+.bcth
+{
+    border-left: 1px solid #000000;
+    float:left;
+    text-align:center;
+    left:0px; 
+    top:0px;
+    width: 107px;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:500;
+    color:rgb(0,0,0);
+   
+}
+
+.checkbutton
+{
+    cursor:pointer;
+    font-family:Times New Roman;
+    font-size:20px;
+    font-weight:bold;
+    font-style:inherit;
+    color:rgb(255,255,255);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.clm2
+{
+    font-family:Times New Roman;
+    font-size:17px;
+    font-weight:bolder;
+    font-style:inherit;
+    color:rgb(40,40,40);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.clm
+{
+    font-family:Times New Roman;
+    font-size:17px;
+    font-weight:bolder;
+    font-style:inherit;
+    color:rgb(40,40,40);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.clmStats
+{
+    font-family:Times New Roman;
+    font-size:17px;
+    font-weight:bolder;
+    font-style:inherit;
+    color:rgb(40,40,40);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.contentpane
+{
+    color:rgb(0,0,0);
+    font-size:5px;
+    font-weight:bold;
+    font-family:Courier New;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+
+.Ktext
+{
+ color:rgb(0,0,0);
+ 
+    font-weight:bold;
+    font-family:Arial;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#text
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#text
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#Panel1
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#Panel1EM
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}#Panel1EM2
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#Panel1EM3
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#Panel2
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#Panel3
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+#Panel5
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.ClientBalanceText
+{
+    color:Orange;
+    padding-top:5px;
+    font-size:25px;
+    text-align:center;
+    font-weight:700;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none; 
+}
+#Panel6
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+.style1
+{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;   
+}
+   .suka
+   {
+    font-size:18px;
+    font-family:IDAutomationHC39M;
+   }
+   .cash{
+       color: white;
+       position: absolute;
+       top:-10px;
+       left: 4px;
+       font-size: 14px;
+       width: 150px;
+   }
+
