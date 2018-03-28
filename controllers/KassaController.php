@@ -199,7 +199,7 @@ class KassaController extends Controller
             if ($server == 3308)
                 $leftTime = $startTime + $roundTime + 135 - time();
             if ($server == 3307)
-                $leftTime = $startTime + $roundTime - time();
+                $leftTime = $startTime + $roundTime + 120 - time();
             if ($server == 3313 || $server == 3303 || $server == 3307) {
                 $lastBall = $lastResults['ball'];
 
